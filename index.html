@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/animation.css">
+</head>
+<body class="w-screen h-auto md:h-screen lg:h-screen bg-[url('../Planets-img/dark-space-3.jpg')] bg-no-repeat bg-cover bg-center">
+    
+<!-- header -->
+<header class="w-full h-[60px] border-b ">
+    
+
+    <section class="w-[90%] h-full mx-auto flex justify-between items-center">
+
+    <!-- logo -->
+    <div class="">
+        <a href="#" class="text-3xl text-white font-bold font-mono tracking-widest hover:text-cyan-300">SPACE</a>
+    </div>
+
+
+
+    <!-- dropdown -->
+    <!-- link_with_external-css -->
+    <div class="relative dropdown visible md:hidden lg:hidden"> 
+    <button class=" dropdown-btn w-[90px] h-[40px] rounded-sm border-[1px] border-white text-cyan-200 text-sm font-mono hover:border-2 hover:text-orange-100" >Menu</button>
+    <div class="right-[0px] dropdown-content absolute backdrop-blur-sm border-white w-[120px] border-[1px] rounded-sm opacity-0 duration-[200ms] pointer-events-none">
+        <div class="flex flex-col items-center">
+            <a class=" w-full text-sm p-[10px] text-white font-mono hover:border-b-cyan-100 hover:border" href="#">Home</a>
+            <a class=" w-full text-sm p-[10px] text-white font-mono hover:border-b-cyan-100 hover:border" href="#">About</a>
+            <a class=" w-full text-sm p-[10px] text-white font-mono hover:border-b-cyan-100 hover:border" href="#">Blogs</a>
+            <a class=" w-full text-sm p-[10px] text-white font-mono hover:border-b-cyan-100 hover:border" href="#">Explore</a>
+        </div> 
+        <!-- button-start -->
+        <div class="w-full p-[10px] ">
+            <button class="px-[20px] py-[8px] border rounded-md text-xs text-white font-semibold font-mono tracking-widest hover:text-black hover:bg-cyan-100 active:scale-90 duration-150">Sign In</button>
+        </div>
+        <!-- button-end -->
+    </div>
+    </div>
+
+    </div>
+
+    <!-- navigation -->
+    <div class="nav-bar hidden md:flex lg:flex items-center gap-[50px] h-full ">
+
+        
+
+        <div class="">
+            <a class="text-sm text-white font-medium font-mono tracking-widest" href="#">Home</a>
+        </div>
+
+        <div class="">
+            <a class="text-sm text-white font-medium font-mono tracking-widest" href="#">About</a>
+        </div>
+
+        <div class="">
+            <a class="text-sm text-white font-medium font-mono tracking-widest" href="#">Blogs</a>
+        </div>
+
+        <div class="">
+            <a class="text-sm text-white font-medium font-mono tracking-widest" href="#">Explore</a>
+        </div>
+
+        <!-- button-start -->
+        <div>
+            <button class="px-[25px] py-[8px] border rounded-full text-xs text-white font-semibold tracking-widest hover:text-black hover:bg-cyan-100 active:scale-90 duration-150">Sign In</button>
+        </div>
+        <!-- button-end -->
+
+    </div>
+
+    </section>
+
+
+
+</header>
+
+
+<section class="flex flex-col md:flex md:flex-row md:justify-center lg:flex lg:flex-row lg:justify-center lg:gap-[130px] md:gap-[50px] gap-[20px] h-auto md:h-[85%] lg:h-[85%] items-center my-[50px] md:my-0 lg:my-0">
+    <!-- img-section -->
+    <section class="lg:w-[25%] md:w-[33%] w-[40%] select-none ">
+        <div class="w-full hover:rotate-[15deg] hover:duration-[2000ms] duration-[2000ms]">
+            <img class="w-full rotate-[195deg] " src="./Planets-img/moon.png" alt="">
+        </div>
+    </section>
+
+   
+   <!-- text-section -->
+    <section class="lg:w-[35%] md:w-[50%] w-[90%] flex flex-col gap-y-[20px] bg-black/5 backdrop-blur-[1px]">
+        <!-- top -->
+        <div class="w-full">
+            <h1 class="text-[80px] md:text-[50px] lg:text-[80px] leading-[100px] md:leading-normal text-white font-mono font-semibold mb-[5px]">Moon</h1>
+            <p class="text-sm text-white font-mono">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus perferendis voluptates impedit perspiciatis! Quae, voluptate exercitationem enim vitae pariatur dolorum eaque ut quidem provident! Dolorum magnam numquam voluptatum provident!
+            </p>
+        </div>
+
+        <!-- middle-bar -->
+        <div class="w-full flex justify-around gap-0 md:gap-[30px] lg:gap-[30px] md:flex md:justify-normal lg:flex lg:justify-normal items-center my-[15px] md:my-0 lg:my-0">
+            <div class="">
+                <h1 class="text-white text-sm font-mono">Survivability</h1>
+            </div>
+            <div class="loading-border w-[50%] h-[15px] border-[1px] border-cyan-100 rounded-full overflow-hidden ">
+               <div class="loading-bar w-[50%] h-full rounded-full bg-cyan-100"></div> 
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="w-full flex justify-around md:flex md:justify-normal lg:flex lg:justify-normal gap-[0px] md:gap-[70px] lg:gap-[70px] ">
+            <div>
+                <h1 class="text-xs text-white font-mono mb-[10px]">Avg. Distance</h1>
+                <p class="text-white font-mono">225 Mile. KM</p>
+            </div>
+            <div class="border-x h-[30px] my-auto"></div>
+            <div>
+                <h1 class="text-xs text-white font-mono mb-[10px]">Est. Travel Time</h1>
+                <p class="text-white font-mono">156 Days</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</section>
+
+
+</body>
+</html>

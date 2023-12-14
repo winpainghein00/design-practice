@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css">
+    <link rel="stylesheet" href="./src/animation.css">
+</head>
+<body class="w-screen  bg-[url('../Planets-img/dark-space-3.jpg')] bg-no-repeat bg-cover bg-center">
+
+
+
+    
+<section class="flex justify-center gap-[130px] h-full items-center">
+    <!-- img-section -->
+    <section class="w-[25%] select-none">
+        <div class="w-full">
+            <img class="w-full rotate-[185deg]" src="./Planets-img/moon.png" alt="">
+        </div>
+    </section>
+
+   
+   <!-- text-section -->
+    <section class="w-[35%] flex flex-col gap-y-[20px] bg-black/5 backdrop-blur-[1px]">
+        <!-- top -->
+        <div class="w-full">
+            <h1 class="text-[80px] leading-[100px] text-white font-mono font-semibold mb-[5px]">Moon</h1>
+            <p class="text-sm text-white font-mono">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem delectus perferendis voluptates impedit perspiciatis! Quae, voluptate exercitationem enim vitae pariatur dolorum eaque ut quidem provident! Dolorum magnam numquam voluptatum provident!
+            </p>
+        </div>
+
+        <!-- middle-bar -->
+        <div class="w-full flex gap-[30px] items-center">
+            <div class="">
+                <h1 class="text-white text-sm">Survivability</h1>
+            </div>
+            <div class="w-[50%] h-[15px] border-[1px] border-cyan-100 rounded-full overflow-hidden ">
+               <div class="w-[50%] h-full rounded-full bg-cyan-100"></div> 
+            </div>
+        </div>
+
+        <!-- bottom -->
+        <div class="w-full flex gap-[90px] ">
+            <div>
+                <h1 class="text-xs text-white font-mono mb-[10px]">Avg. Distance</h1>
+                <p class="text-white font-mono">225 Mile. KM</p>
+            </div>
+            <div class="border-x h-[30px] my-auto"></div>
+            <div>
+                <h1 class="text-xs text-white font-mono mb-[10px]">Est. Travel Time</h1>
+                <p class="text-white font-mono">156 Days</p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+</section>
+
+<!-- dropdown -->
+<!-- link_with_external-css -->
+    <div class="relative"> 
+    <button class="ml-[50px] dropdown-btn w-[90px] h-[40px] rounded-sm border-[1px] border-cyan-500 text-cyan-200 text-sm hover:border-2 hover:text-orange-100" >Menu</button>
+    <div class="left-[50px] dropdown-content absolute backdrop-blur-sm border-cyan-500 w-[120px] border-[1px] rounded-sm opacity-0 duration-[200ms] pointer-events-none">
+        <div class="flex flex-col items-center">
+            <a class=" w-full text-sm p-[10px] text-white hover:border-b-cyan-100 hover:border" href="#">expensive</a>
+            <a class=" w-full text-sm p-[10px] text-white hover:border-b-cyan-100 hover:border" href="#">cheap</a>
+            <a class=" w-full text-sm p-[10px] text-white hover:border-b-cyan-100 hover:border" href="#">quality</a>
+        </div> 
+    </div>
+    </div>
+
+    </div>
+    
+
+
+    
+</body>
+</html>

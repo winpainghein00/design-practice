@@ -1,0 +1,68 @@
+/* nav-bar underline effect */
+.nav-bar div a{
+    position: relative;
+   
+    
+}
+
+.nav-bar div a::before{
+    content: "";
+    position: absolute;
+    background-color: aqua;
+    top: 35px;
+    left: -15%;
+    height: 2px;
+    border-bottom-right-radius: 100%;
+    border-bottom-left-radius: 100%;
+    width: 130%;
+    transform: scale(0);
+    
+    
+}
+
+.nav-bar div a:hover::before{
+    transition-duration: 200ms;
+    transform: scale(1);
+}
+
+@keyframes loading{
+    from{
+        transform: translateX(-100%)
+        ;
+    }
+    to{
+        transform: tarnslateX(0)
+        ;
+    }
+    
+}
+@keyframes rotateeffect{
+    from{
+        transform: rotate(220deg);
+    }
+    
+    to{
+        transform: rotate(195deg);
+    }
+}
+
+
+.loading-border .loading-bar{
+    animation-name: loading; 
+    animation-duration: 4000ms;
+    animation-fill-mode: backwards;
+    animation-iteration-count:; 
+}
+
+.dropdown-btn:focus + .dropdown-content{
+    opacity: 1;
+    pointer-events: all;
+
+}
+
+img{
+    animation-name: rotateeffect; 
+    animation-duration: 4000ms;
+    animation-fill-mode: both;
+    animation-iteration-count:;
+}
