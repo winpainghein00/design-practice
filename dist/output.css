@@ -855,6 +855,10 @@ video {
   line-height: 1rem;
 }
 
+.text-\[10px\] {
+  font-size: 10px;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -869,6 +873,26 @@ video {
 
 .leading-\[100px\] {
   line-height: 100px;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-\[\] {
+  line-height: ;
+}
+
+.leading-\[1\] {
+  line-height: 1;
+}
+
+.leading-\[13px\] {
+  line-height: 13px;
+}
+
+.leading-\[20px\] {
+  line-height: 20px;
 }
 
 .tracking-widest {
