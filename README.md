@@ -1,4 +1,8 @@
+## UI Practicing
+
 - HTML
-- CSS
+- CSS `css animation`
 - Tailwind CSS
-https://wpx-tailwindcss-design-practice.netlify.app
+
+[Preview](https://wpx-tailwindcss-design-practice.netlify.app)
+
